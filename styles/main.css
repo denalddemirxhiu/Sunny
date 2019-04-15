@@ -21,9 +21,9 @@ body {
 
 #header {
     text-align: left;
-    margin-top: 3em;
+    margin-top: 1em;
     margin-left: 10em;
-}
+}r
 
 #header h1 {
     font-size: 2.5em;
@@ -95,6 +95,17 @@ input[type="text"]:focus {
 #content {
     margin-bottom: 2em;
     position: relative;
+}
+
+#searchBtn {
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 1em;
+    margin-top: 20px;
 }
 
 /*********************
@@ -211,7 +222,7 @@ input[type="text"]:focus {
     display: none;
     position:relative;
     height: 520px;
-    width: 67%;
+    width: 60%;
     float: right;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 25px;
